@@ -42,7 +42,7 @@
     <circle r="50" fill="url(#coreGlow)">
       <animate attributeName="r" values="46;56;46" dur="3s" repeatCount="indefinite"/>
     </circle>
-    <image href="./assets/profile.png" x="-34" y="-34" width="68" height="68" clip-path="url(#profileClip)" preserveAspectRatio="xMidYMid slice"/>
+    <image href="profile.png" x="-34" y="-34" width="68" height="68" clip-path="url(#profileClip)" preserveAspectRatio="xMidYMid slice"/>
     <circle r="34" fill="none" stroke="#7fe8ff" stroke-width="2" opacity="0.9"/>
 
     <!-- orbiting nodes -->
