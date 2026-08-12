@@ -14,6 +14,9 @@
       <stop offset="0%" stop-color="#00c6ff" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#00c6ff" stop-opacity="0"/>
     </radialGradient>
+    <clipPath id="profileClip">
+      <circle cx="0" cy="0" r="34"/>
+    </clipPath>
     <linearGradient id="dotWeb" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#7fe8ff"/><stop offset="100%" stop-color="#00c6ff"/>
     </linearGradient>
@@ -35,12 +38,12 @@
     <path id="orbitB" d="M -220,0 A 220,95 0 1,0 220,0 A 220,95 0 1,0 -220,0" fill="none" stroke="#2c5364" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.7" transform="rotate(18)"/>
     <path id="orbitC" d="M -150,0 A 150,55 0 1,0 150,0 A 150,55 0 1,0 -150,0" fill="none" stroke="#2c5364" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.7" transform="rotate(-14)"/>
 
-    <!-- core sphere -->
+    <!-- core: profile photo -->
     <circle r="50" fill="url(#coreGlow)">
       <animate attributeName="r" values="46;56;46" dur="3s" repeatCount="indefinite"/>
     </circle>
-    <circle r="30" fill="url(#core)"/>
-    <text y="6" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#08202b">ME</text>
+    <image href="./assets/profile.png" x="-34" y="-34" width="68" height="68" clip-path="url(#profileClip)" preserveAspectRatio="xMidYMid slice"/>
+    <circle r="34" fill="none" stroke="#7fe8ff" stroke-width="2" opacity="0.9"/>
 
     <!-- orbiting nodes -->
     <circle r="10" fill="url(#dotWeb)">
