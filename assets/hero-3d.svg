@@ -1,0 +1,95 @@
+<svg viewBox="0 0 820 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="60%" stop-color="#16324a"/>
+      <stop offset="100%" stop-color="#0f2027"/>
+    </linearGradient>
+
+    <linearGradient id="topFace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7fe8ff"/>
+      <stop offset="100%" stop-color="#00c6ff"/>
+    </linearGradient>
+    <linearGradient id="leftFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1e2b"/>
+      <stop offset="100%" stop-color="#08141c"/>
+    </linearGradient>
+    <linearGradient id="rightFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c4966"/>
+      <stop offset="100%" stop-color="#123245"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00c6ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#00c6ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="820" height="420" fill="url(#bg)"/>
+
+  <!-- floating background particles -->
+  <g fill="#00c6ff">
+    <circle cx="90" cy="70" r="3" opacity="0.6">
+      <animate attributeName="cy" values="70;55;70" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="740" cy="90" r="2.5" opacity="0.5">
+      <animate attributeName="cy" values="90;108;90" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="330" r="2" opacity="0.4">
+      <animate attributeName="cy" values="330;315;330" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="770" cy="340" r="3" opacity="0.5">
+      <animate attributeName="cy" values="340;322;340" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ground glow under each prism -->
+  <ellipse cx="180" cy="330" rx="90" ry="18" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="410" cy="330" rx="90" ry="18" fill="url(#glow)">
+    <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="640" cy="330" rx="90" ry="18" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.4s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- PRISM 1 : FULL STACK -->
+  <g>
+    <polygon points="110,145 180,180 180,330 110,295" fill="url(#leftFace)"/>
+    <polygon points="180,180 250,145 250,295 180,330" fill="url(#rightFace)"/>
+    <polygon points="180,180 250,145 180,110 110,145" fill="url(#topFace)"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-6;0,0" dur="4s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- PRISM 2 : AI (center, tallest) -->
+  <g>
+    <polygon points="330,185 400,220 400,330 330,295" fill="url(#leftFace)"/>
+    <polygon points="400,220 470,185 470,295 400,330" fill="url(#rightFace)"/>
+    <polygon points="400,220 470,185 400,150 330,185" fill="url(#topFace)"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-9;0,0" dur="3.4s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- PRISM 3 : EMBEDDED -->
+  <g>
+    <polygon points="550,105 620,140 620,330 550,295" fill="url(#leftFace)"/>
+    <polygon points="620,140 690,105 690,295 620,330" fill="url(#rightFace)"/>
+    <polygon points="620,140 690,105 620,70 550,105" fill="url(#topFace)"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-6;0,0" dur="4.6s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- labels -->
+  <text x="180" y="365" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#e6f7ff" letter-spacing="1">FULL STACK</text>
+  <text x="410" y="365" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#e6f7ff" letter-spacing="1">AI / ML</text>
+  <text x="620" y="365" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#e6f7ff" letter-spacing="1">EMBEDDED</text>
+
+  <!-- top title -->
+  <text x="410" y="45" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="26" font-weight="800" fill="url(#topFace)" letter-spacing="2">
+    WHAT I BUILD
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.6s" repeatCount="indefinite"/>
+  </text>
+</svg>
