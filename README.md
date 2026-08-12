@@ -1,109 +1,106 @@
 
+<div align="center">
 
-# 💫 About Me
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c6ff&height=220&section=header&text=Chala%20Fokora&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20•%20Embedded%20Systems%20•%20AI&descAlignY=58&descSize=18" width="100%"/>
 
-👋 Hi, I'm **Chala**
+<a href="https://github.com/chala-tech"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/chala-fokora-a018aa399/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://instagram.com/chal_7_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+<a href="https://x.com/Chalas53s"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
+<a href="mailto:fokorachala@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-**Full Stack Developer**  
-**Embedded Systems + AI Enthusiast**
+<br/>
 
-[GitHub](https://github.com/chala-tech) • [LinkedIn](https://www.linkedin.com/in/chala-fokora-a018aa399/) • [Instagram](https://instagram.com/chal_7_) • [X](https://x.com/Chalas53s)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00C6FF&center=true&vCenter=true&width=600&lines=Building+cool+full-stack+apps+%F0%9F%9A%80;Tinkering+with+embedded+systems+%E2%9A%A1;Exploring+AI+%2F+ML+%F0%9F%A4%96;ECE+Student+%F0%9F%8E%93" alt="Typing SVG"/>
 
----
+</div>
 
-## 🚀 About Me
-
-💻 Full Stack Development  
-⚡ Embedded Systems  
-🤖 Artificial Intelligence  
-🎓 Electrical & Computer Engineering
-
----
+<br/>
 
 ## 🛠️ Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+<div align="center">
 
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=61DAFB)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-8511FA?style=for-the-badge&logo=bootstrap&logoColor=white)
+<img src="https://skillicons.dev/icons?i=py,js,ts,java,react,nodejs,express,postgres,mysql,prisma,javascript,vercel,git,linux,arduino&theme=dark&perline=8" />
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+</div>
 
-![JavaFX](https://img.shields.io/badge/JavaFX-FF0000?style=for-the-badge&logo=javafx&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=chala-tech&theme=transparent&hide_border=true&include_all_commits=true&count_private=true" height="170"/>
-  <img src="https://streak-stats.demolab.com/?user=chala-tech&theme=transparent&hide_border=true" height="170"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=chala-tech&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&layout=compact" height="170"/>
-</p>
-
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=chala-tech&theme=radical&no-frame=true&no-bg=true&margin-w=4"/>
-</p>
-
----
+<br/>
 
 ## 🚀 Featured Projects
 
-| Project | Description |
-|--------|-------------|
-| 🚀 Project 1 | Full Stack Application |
-| ⚡ Project 2 | Embedded Systems Project |
-| 🤖 Project 3 | AI / Machine Learning Project |
+<div align="center">
 
----
+<table>
+<tr>
+<td width="33%" align="center">
 
-## 📫 Connect With Me
+### 🌐
+**Full Stack App**
+<br/>
+<sub>End-to-end web application</sub>
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/chal_7_)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chala-fokora-a018aa399/)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=X&logoColor=white)](https://x.com/Chalas53s)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fokorachala@gmail.com)
+</td>
+<td width="33%" align="center">
 
----
+### ⚡
+**Embedded Systems**
+<br/>
+<sub>Hardware + firmware project</sub>
 
-## ✍️ Random Dev Quote
+</td>
+<td width="33%" align="center">
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
-</p>
+### 🤖
+**AI / ML**
+<br/>
+<sub>Machine learning experiment</sub>
 
----
+</td>
+</tr>
+</table>
 
-## 🔝 Top Contributed Repo
+</div>
 
-<p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=chala-tech&limit=5&theme=dark&combine_all_yearly_contributions=true"/>
-</p>
+<br/>
 
----
+## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=chala-tech&label=Profile%20Views&color=0e75b6&style=flat"/>
-</p>
+<div align="center">
 
+<img src="https://github-readme-stats.vercel.app/api?username=chala-tech&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=chala-tech&theme=tokyonight&hide_border=true" height="165"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chala-tech&layout=compact&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+
+</div>
+
+<br/>
+
+## 🌌 3D Contribution Graph
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/chala-tech/chala-tech/main/profile-3d-contrib/profile-night-rainbow.svg" width="95%"/>
+
+</div>
+
+<sub align="center">
+
+> ⚙️ Generated automatically by [`profile-3d-contrib`](https://github.com/yoshi389111/github-profile-3d-contrib) — add the workflow to your repo and it updates itself daily.
+
+</sub>
+
+<br/>
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=chala-tech&label=Profile%20Views&color=00c6ff&style=for-the-badge"/>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0f2027&height=100&section=footer"/>
+
+</div>
 
 
