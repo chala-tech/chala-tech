@@ -1,0 +1,82 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="60%" stop-color="#16324a"/>
+      <stop offset="100%" stop-color="#0f2027"/>
+    </linearGradient>
+    <linearGradient id="cTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7fe8ff"/><stop offset="100%" stop-color="#00c6ff"/>
+    </linearGradient>
+    <linearGradient id="cLeft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1e2b"/><stop offset="100%" stop-color="#08141c"/>
+    </linearGradient>
+    <linearGradient id="cRight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c4966"/><stop offset="100%" stop-color="#123245"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="420" fill="url(#bg3)"/>
+  <text x="400" y="42" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="24" font-weight="800" fill="#e6f7ff" letter-spacing="2">ALWAYS BUILDING</text>
+
+  <!-- connecting lines from center to each small cube -->
+  <g stroke="#00c6ff" stroke-width="1.2" stroke-dasharray="3 6" opacity="0.55">
+    <line x1="400" y1="195" x2="150" y2="150">
+      <animate attributeName="stroke-dashoffset" values="0;-18" dur="1.6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="195" x2="660" y2="150">
+      <animate attributeName="stroke-dashoffset" values="0;-18" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="195" x2="150" y2="330">
+      <animate attributeName="stroke-dashoffset" values="0;-18" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="195" x2="660" y2="330">
+      <animate attributeName="stroke-dashoffset" values="0;-18" dur="1.4s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- central cube -->
+  <g>
+    <polygon points="345,112 400,140 400,250 345,222" fill="url(#cLeft)"/>
+    <polygon points="400,140 455,112 455,222 400,250" fill="url(#cRight)"/>
+    <polygon points="400,140 455,112 400,85 345,112" fill="url(#cTop)"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="3s" repeatCount="indefinite"/>
+  </g>
+  <text x="400" y="278" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#cfeefc">CORE</text>
+
+  <!-- small cube: WEB -->
+  <g>
+    <polygon points="112,121 140,135 140,180 112,166" fill="url(#cLeft)"/>
+    <polygon points="140,135 168,121 168,166 140,180" fill="url(#cRight)"/>
+    <polygon points="140,135 168,121 140,107 112,121" fill="url(#cTop)"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-8;0,0" dur="3.4s" repeatCount="indefinite"/>
+  </g>
+  <text x="140" y="205" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#9fd8ec">WEB</text>
+
+  <!-- small cube: IoT -->
+  <g>
+    <polygon points="632,121 660,135 660,180 632,166" fill="url(#cLeft)"/>
+    <polygon points="660,135 688,121 688,166 660,180" fill="url(#cRight)"/>
+    <polygon points="660,135 688,121 660,107 632,121" fill="url(#cTop)"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-6;0,0" dur="4s" repeatCount="indefinite"/>
+  </g>
+  <text x="660" y="205" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#9fd8ec">IOT</text>
+
+  <!-- small cube: API -->
+  <g>
+    <polygon points="112,281 140,295 140,340 112,326" fill="url(#cLeft)"/>
+    <polygon points="140,295 168,281 168,326 140,340" fill="url(#cRight)"/>
+    <polygon points="140,295 168,281 140,267 112,281" fill="url(#cTop)"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,7;0,0" dur="3.7s" repeatCount="indefinite"/>
+  </g>
+  <text x="140" y="365" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#9fd8ec">API</text>
+
+  <!-- small cube: ML -->
+  <g>
+    <polygon points="632,281 660,295 660,340 632,326" fill="url(#cLeft)"/>
+    <polygon points="660,295 688,281 688,326 660,340" fill="url(#cRight)"/>
+    <polygon points="660,295 688,281 660,267 632,281" fill="url(#cTop)"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,6;0,0" dur="3.1s" repeatCount="indefinite"/>
+  </g>
+  <text x="660" y="365" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#9fd8ec">ML</text>
+</svg>
