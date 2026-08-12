@@ -67,34 +67,23 @@
 
 <br/>
 
-## 📊 GitHub Stats
+## 🪐 Skills
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=chala-tech&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="165"/>
-<img src="https://streak-stats.demolab.com/?user=chala-tech&theme=tokyonight&hide_border=true" height="165"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chala-tech&layout=compact&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+<img src="./assets/skill-orbit-3d.svg" width="85%"/>
 
 </div>
-
-<sub>⚠️ These run on the free public `vercel.app` demo instance, which gets rate-limited under heavy traffic and can show a broken icon at random. If it keeps happening, self-hosting your own copy (fork the repo → deploy to your own Vercel) fixes it permanently.</sub>
 
 <br/>
 
-## 🌌 3D Contribution Graph
+## 🧊 Currently Building
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/chala-tech/chala-tech/main/profile-3d-contrib/profile-night-rainbow.svg" width="95%"/>
+<img src="./assets/build-core-3d.svg" width="85%"/>
 
 </div>
-
-<sub align="center">
-
-> ⚙️ This image won't appear until you add **`profile-3d-contrib.yml`** to `.github/workflows/` in your `chala-tech/chala-tech` repo and let it run once (Actions tab → run manually). After that it regenerates itself daily.
-
-</sub>
 
 <br/>
 
